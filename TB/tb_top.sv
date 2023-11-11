@@ -1,7 +1,17 @@
-`include"mem_if.sv"
-`include"Classes.sv"
-`include"MEM_16x32.sv"
+`include"../RTL/MEM_16x32.sv"
+`include"../MEM_Interface/mem_if.sv"
+`include"../Classes/transaction_class.sv"
+`include"../Classes/sequencer_class.sv"
+`include"../Classes/driver_class.sv"
+`include"../Classes/monitor_class.sv"
+`include"../Classes/scoreboard_class.sv"
+`include"../Classes/environment_class.sv"
+`include"../Classes/test_class.sv"
 
+
+//////////////////////////////////////////////////////////////
+///////			Test-Bench Top		       ///////
+//////////////////////////////////////////////////////////////
 module tb_top;
 
 
